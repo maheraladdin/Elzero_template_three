@@ -1575,6 +1575,11 @@ header > article section p {
   border-radius: 10px;
   background-color: white;
   z-index: 2;
+  transition: 0.3s;
+}
+
+.timer:hover {
+  border-color: var(--blue);
 }
 
 .timer p:first-of-type {
@@ -1584,6 +1589,10 @@ header > article section p {
   height: 70px;
   line-height: 70px;
   color: var(--blue);
+}
+
+.timer:hover p:first-of-type {
+  border-color: var(--blue);
 }
 
 .timer p:last-of-type {
