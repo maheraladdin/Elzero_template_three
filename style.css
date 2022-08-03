@@ -220,7 +220,12 @@ main > article {
 header {
   height: 100vh;
   position: relative;
-  overflow: hidden;
+}
+
+@media (max-height: 600px) {
+  header {
+    margin-bottom: 30px;
+  }
 }
 
 nav {
@@ -545,6 +550,7 @@ header > article::before {
   top: 0;
   z-index: -1;
   transform:skewY(-5deg);
+  min-height: 480px;
 }
 
 header > article section:first-of-type {
@@ -594,6 +600,7 @@ header > article section p {
   left: 50%;
   transform: translate(-50%,70vh);
   animation: up_down 1s infinite linear;
+  bottom: 0;
 }
 
 @keyframes up_down {
