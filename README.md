@@ -1,2 +1,7 @@
 # Elzero_template_three
-coding a design
+
+See the template design from [here](https://elzerowebschool.github.io/HTML_And_CSS_Template_Three/)
+
+See the template on codepen from [here](https://codepen.io/maheraladdin/pen/MWVOLyE)
+
+See the template demo from [here]()
