@@ -604,18 +604,9 @@ header > article section p {
 .intro_photo {
   width: 100%;
   position: relative;
-  animation: up_down 1s infinite linear;
+  animation: up_down 5s infinite linear;
   margin: 20px 0;
   top: 0;
-}
-
-.icon_arrow_down {
-  color: var(--blue);
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%,70vh);
-  animation: up_down 1s infinite linear;
-  bottom: 0;
 }
 
 @keyframes up_down {
@@ -629,6 +620,30 @@ header > article section p {
   
   100% {
     top: 0;
+  }
+}
+
+.icon_arrow_down {
+  color: var(--blue);
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,70vh);
+  animation: up_down_icon 1s infinite linear;
+  bottom: 0;
+}
+
+@keyframes up_down_icon {
+  0%
+  ,10%
+  ,20%
+  ,50%
+  ,100%{
+    top: 0;
+  }
+  
+  40%
+  ,60%{
+    top: 10px;
   }
 }
 
